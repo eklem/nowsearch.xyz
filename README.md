@@ -4,6 +4,6 @@ Easy access to a free search engine service. Just add your JSON data, define the
 
 One take on "[The volatile search engine as a use case](https://medium.com/norch/the-volatile-search-engine-as-a-use-case-b6f29b9d82ee)"
 
-[![nowsearch.xyz](https://img.youtube.com/vi/7AxEkIjMjS8/0.jpg)](https://www.youtube.com/watch?v=7AxEkIjMjS8)
+[![nowsearch.xyz](https://github.com/eklem/nowsearch.xyz/blob/master/Screen%20Shot%202018-07-05%20at%2012.06.49.png)](https://www.youtube.com/watch?v=7AxEkIjMjS8)
 
 No others will have access to your data or how you use it since the search engine is running in your browser.
