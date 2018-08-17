@@ -1,4 +1,4 @@
-# [Now search xyz](https://nowsearch.xyz/)
+# [Now search [xyz]](https://nowsearch.xyz/)
 
 Easy access to a free search engine service. Just add your JSON data, define the key that holds your documents and search your content.
 
