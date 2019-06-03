@@ -6,7 +6,7 @@ One take on "[The volatile search engine as a use case](https://medium.com/norch
 
 ## Mobile examples
 
-[![nowsearch.xyz](https://github.com/eklem/nowsearch.xyz/blob/master/mobile-upload json.png)](https://youtu.be/c6pg-shw_w0)
+[![nowsearch.xyz](https://github.com/eklem/nowsearch.xyz/blob/master/mobile-upload%20json.png)](https://youtu.be/c6pg-shw_w0)
 
 [![nowsearch.xyz](https://github.com/eklem/nowsearch.xyz/blob/master/mobile-search.png)](https://youtu.be/c6pg-shw_w0)
 
