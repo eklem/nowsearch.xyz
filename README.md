@@ -5,6 +5,6 @@
 One take on "[The volatile search engine as a use case](https://medium.com/norch/the-volatile-search-engine-as-a-use-case-b6f29b9d82ee)"
 
 ## Video on idea
-[![nowsearch.xyz](https://user-images.githubusercontent.com/236656/99069938-9852cd80-25af-11eb-924b-87855e8ba784.png](https://youtu.be/c6pg-shw_w0)
+[![nowsearch.xyz](https://user-images.githubusercontent.com/236656/99069938-9852cd80-25af-11eb-924b-87855e8ba784.png)](https://youtu.be/c6pg-shw_w0)
 
 No others will have access to your data or how you use it since the search engine is running in your browser.
