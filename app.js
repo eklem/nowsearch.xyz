@@ -40,6 +40,7 @@ auth0.createAuth0Client({
     profileElement.innerHTML = `
             <p>${userProfile.name}</p>
             <img src="${userProfile.picture}" />
+            <pre>${JSON.stringify(userProfile, null, ' ')}</per>
           `;
   } else {
     profileElement.style.display = "none";
