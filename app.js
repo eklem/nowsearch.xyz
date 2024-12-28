@@ -44,8 +44,8 @@ auth0.createAuth0Client({
 
   if (isAuthenticated) {
     console.log(JSON.stringify(userProfile))
-    let userMetadataExists = checkUserMetadata(userProfile, user_metadata)
-    let nicknameExists = checkUserMetadata(userProfile, nickname)
+    let userMetadataExists = checkUserMetadata(userProfile, 'user_metadata')
+    let nicknameExists = checkUserMetadata(userProfile, 'nickname')
     profileElement.style.display = "block";
     profileElement.innerHTML = `
             <p>${userProfile.name}</p>
