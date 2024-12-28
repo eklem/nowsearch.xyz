@@ -4,5 +4,5 @@ html, body {
 }
 
 img#profileImage {
-  clip-path: circle(40%);
+  clip-path: circle(50%);
 }
