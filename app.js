@@ -50,7 +50,7 @@ auth0.createAuth0Client({
     profileElement.style.display = "block";
     profileElement.innerHTML = `
             <p>${userProfile.name}</p>
-            <img src="${userProfile.picture}" />
+            <img id="profileImage" src="${userProfile.picture}" />
             <p>User metadata exists: ${userMetadataExists}</p>
             <p>Nickname exists: ${nicknameExists}</p>
             <pre>${JSON.stringify(userProfile, null, ' ')}</per>

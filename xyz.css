@@ -2,3 +2,7 @@ html, body {
   margin: 5px;
   padding: 0;
 }
+
+img#profileImage {
+  clip-path: circle(40%);
+}
