@@ -3,6 +3,7 @@
   if (key in object) {
     return true
   }
+  else return false
  }
 
 // Auth0 login, logout and profile info
