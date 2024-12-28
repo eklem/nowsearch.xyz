@@ -45,9 +45,6 @@ auth0.createAuth0Client({
 
   if (isAuthenticated) {
     console.log(JSON.stringify(userProfile))
-    if (!checkUserMetadata(userProfile, 'user_metadata')) {
-      api.user.setUserMetadata("screen_name", "username")
-    }
     let userMetadataExists = checkUserMetadata(userProfile, 'user_metadata')
     let nicknameExists = checkUserMetadata(userProfile, 'nickname')
     profileElement.style.display = "block";
