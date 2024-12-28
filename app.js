@@ -1,3 +1,11 @@
+ // Checking if object has user_metadata key
+ function checkUserMetadata(object, key) {
+  if (key in object) {
+    return true
+  }
+ }
+
+// Auth0 login, logout and profile info
 auth0.createAuth0Client({
   domain: "dev-g9vj0eeg.eu.auth0.com",
   clientId: "A9cR2RBZG8da5MfPqoMyN6WEZM1ilsZP",
@@ -36,10 +44,14 @@ auth0.createAuth0Client({
 
   if (isAuthenticated) {
     console.log(JSON.stringify(userProfile))
+    let userMetadataExists = checkUserMetadata(userProfile, user_metadata)
+    let nicknameExists = checkUserMetadata(userProfile, nickname)
     profileElement.style.display = "block";
     profileElement.innerHTML = `
             <p>${userProfile.name}</p>
             <img src="${userProfile.picture}" />
+            <p>User metadata exists: ${userMetadataExists}</p>
+            <p>Nickname exists: ${nicknameExists}</p>
             <pre>${JSON.stringify(userProfile, null, ' ')}</per>
           `;
   } else {
