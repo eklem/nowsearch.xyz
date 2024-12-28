@@ -35,6 +35,7 @@ auth0.createAuth0Client({
   const profileElement = document.getElementById("profile");
 
   if (isAuthenticated) {
+    console.log(JSON.stringify(userProfile))
     profileElement.style.display = "block";
     profileElement.innerHTML = `
             <p>${userProfile.name}</p>
